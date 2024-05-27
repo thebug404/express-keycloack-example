@@ -1,0 +1,28 @@
+{
+  "name": "express-keycloack-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "start:ts": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Ivan Guevara"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "4.17.21",
+    "@types/express-session": "1.18.0",
+    "@types/node": "20.12.12",
+    "dotenv": "16.4.5",
+    "typescript": "5.4.5"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "express-session": "1.18.0",
+    "keycloak-connect": "24.0.4"
+  }
+}
